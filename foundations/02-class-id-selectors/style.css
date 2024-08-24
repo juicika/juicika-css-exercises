@@ -1,0 +1,19 @@
+.odd-num {
+    background-color: hsl(346, 100%, 82%);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+#second {
+    color: hsl(225, 73%, 49%);
+    font-size: 36px;
+}
+
+.size-chg {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: hsl(101, 95%, 76%);
+    font-weight: bold;
+    font-size: 24px;
+}
