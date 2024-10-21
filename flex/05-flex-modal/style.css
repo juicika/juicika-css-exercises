@@ -67,3 +67,18 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.flex-grp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-grp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-grp {
+  display: flex;
+}
