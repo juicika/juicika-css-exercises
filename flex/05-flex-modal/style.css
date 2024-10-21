@@ -69,16 +69,8 @@ button.cancel {
 }
 
 .flex-grp {
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.title-grp {
-  display: flex;
-  justify-content: space-between;
-}
-
-.button-grp {
-  display: flex;
 }
