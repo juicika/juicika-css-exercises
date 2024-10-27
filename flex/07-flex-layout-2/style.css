@@ -39,9 +39,11 @@ body {
 }
 
 .footer {
+  /* push footer to bottom */
   margin-top: auto;
 }
 
 .header {
+  /* push header to top */
   margin-bottom: auto;
 }
