@@ -5,6 +5,11 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  /* space sections vertically on page */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 img {
@@ -39,12 +44,16 @@ a {
 }
 
 .header, .footer {
-  /* align header & footer items horizontally */
+  /* space header & footer items horizontally */
   display: flex;
   justify-content: space-between;
 }
 
 .left-links, .right-links {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+}
+
+.content {
+  text-align: center;
 }
