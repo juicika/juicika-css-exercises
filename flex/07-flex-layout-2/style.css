@@ -24,12 +24,28 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+
+  /* set proportion to content */
+  flex: 1;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+ul {
+  /* remove default list styling */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  /* remove default link styling */
+  text-decoration: none;
+  color: white;
 }
 
 .main {
@@ -46,4 +62,17 @@ body {
 .header {
   /* push header to top */
   margin-bottom: auto;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 3; /* set proportion to sidebar */
+  gap: 20px;
+}
+
+.card {
+  /* set size and flex ratio */
+  flex: 1 1 400px;
 }
