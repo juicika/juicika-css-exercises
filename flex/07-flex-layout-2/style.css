@@ -43,8 +43,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-
-  flex: 1 0 100px; /* set proportion to content */
+  flex-shrink: 0;
 }
 
 .card {
@@ -52,7 +51,8 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 
-  flex: 1 1 400px; /* set size and flex ratio */
+  flex-shrink: 0;
+  width: 400px;
   padding: 15px;
 }
 
@@ -93,8 +93,7 @@ a {
   /* layout cards to fit page size */
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  flex: 3; /* set proportion to sidebar */
+  justify-content: flex-start;
   gap: 20px;
   margin: 50px;
 }
