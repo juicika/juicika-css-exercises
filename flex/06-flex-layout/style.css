@@ -21,6 +21,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  /* make buttons slightly larger */
+  padding: 10px 20px;
 }
 
 input {
@@ -47,13 +50,22 @@ a {
   /* space header & footer items horizontally */
   display: flex;
   justify-content: space-between;
+
+  /* add space between page borders */
+  padding: 15px;
 }
 
 .left-links, .right-links {
+  /* align individual link items horizontally and add space between */
   display: flex;
   gap: 20px;
 }
 
 .content {
   text-align: center;
+}
+
+.buttons {
+  /* add space between buttons and text input */
+  margin-top: 20px;
 }
